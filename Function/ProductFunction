@@ -1,0 +1,10 @@
+public class ProductFunction{
+    public static int product(int p , int q){
+        return p * q;
+    }
+    public static void main(String[] args) {
+        int result = product(10,20);
+        System.out.println("Calculated Product: " + result);
+
+    }
+}
