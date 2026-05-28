@@ -1,2 +1,7 @@
-# java-dsa
-Data Structures and Algorithms problems solved in Java
+Topics practiced:
+- Reverse Array
+- Two Pointer Technique
+- Two Sum (Brute Force)
+- Array Traversal
+- Returning Indexes
+- Swapping Elements
