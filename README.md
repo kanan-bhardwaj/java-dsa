@@ -1,7 +1,6 @@
-Topics practiced:
+Topics Covered:
+- Arrays
+- Linear Search
+- Two Sum
 - Reverse Array
-- Two Pointer Technique
-- Two Sum (Brute Force)
-- Array Traversal
-- Returning Indexes
-- Swapping Elements
+- Sum of Array
