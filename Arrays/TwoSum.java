@@ -1,6 +1,9 @@
-class Solution {
+import java.util.Arrays;
 
-    public int[] twoSum(int[] nums, int target) {
+public class TwoSum {
+
+    // Method to find indexes
+    static int[] twoSum(int[] nums, int target) {
 
         for (int i = 0; i < nums.length; i++) {
 
@@ -8,23 +11,26 @@ class Solution {
 
                 if (nums[i] + nums[j] == target) {
 
-                    return new int[] {i, j};
+                    return new int[]{i, j};
                 }
             }
         }
-
-        return new int[] {};
+        // If no solution found
+        return new int[]{};
     }
-    // Main method
-    public static void main(String[] args) {
 
-        Solution obj = new Solution();
+    public static void main(String[] args) {
 
         int[] nums = {2, 7, 11, 15};
         int target = 9;
 
-        int[] result = obj.twoSum(nums, target);
+        int[] result = twoSum(nums, target);
 
-        System.out.println(result[0] + " " + result[1]);
+        // Checking if result exists
+        if(result.length > 0){
+            System.out.println("Indexes: " + Arrays.toString(result));
+        } else {
+            System.out.println("No solution found");
+        }
     }
 }
